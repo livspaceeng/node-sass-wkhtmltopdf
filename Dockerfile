@@ -10,5 +10,3 @@ RUN apk add --update --no-cache \
 COPY wkhtmltopdf /bin
 RUN chmod +x /bin/wkhtmltopdf
 
-ENTRYPOINT ["wkhtmltopdf"]
-
