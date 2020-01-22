@@ -11,3 +11,5 @@ RUN apk add --update --no-cache bash \
 
 COPY --from=aantonw /lib/libwkhtmltox.so.0.12.5 /lib
 COPY --from=aantonw /bin/wkhtmltopdf /bin
+
+RUN chmod +x /bin/wkhtmltopdf
