@@ -1,5 +1,5 @@
 FROM aantonw/alpine-wkhtmltopdf-patched-qt:latest as aantonw
-FROM blairguk/node-sass-alpine:8.11.0
+FROM jaimingandhi/docker-node-sass-alpine:v1
 
 RUN apk add --update --no-cache bash \
     libgcc libstdc++ libx11 glib libxrender libxext libintl \
